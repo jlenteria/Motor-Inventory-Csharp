@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window
+	x:Class="Semifinal_Activity_1.add_window" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	Title="Semifinal_Activity_1"
+	Height="530"
+	Width="300">
+	<Grid
+		Margin="5">
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition
+				Width="77" />
+			<ColumnDefinition
+				Width="169" />
+		</Grid.ColumnDefinitions>
+		<Grid.RowDefinitions>
+			<RowDefinition
+				Height="Auto" />
+			<RowDefinition
+				Height="Auto" />
+			<RowDefinition
+				Height="Auto" />
+			<RowDefinition
+				Height="Auto" />
+			<RowDefinition
+				Height="Auto" />
+			<RowDefinition
+				Height="Auto" />
+			<RowDefinition
+				Height="Auto" />
+			<RowDefinition
+				Height="Auto" />
+			<RowDefinition
+				Height="Auto" />
+			<RowDefinition
+				Height="Auto" />
+			<RowDefinition
+				Height="Auto" />
+			<RowDefinition
+				Height="Auto" />
+		</Grid.RowDefinitions>
+		<Label
+			Content="Image/Types: "
+			Width="83"
+			Grid.Column="0"
+			Grid.Row="0"
+			HorizontalAlignment="Left"
+			VerticalAlignment="Stretch"
+			Margin="0,0,0,0" />
+		<ComboBox
+			Name="motorcycle_list"
+			Width="180"
+			Margin="0,2,0,2"
+			VerticalAlignment="Stretch"
+			HorizontalAlignment="Center"
+			Grid.Row="0"
+			Grid.Column="1">
+			<Grid>
+				<Image
+					Source="{Binding Image, Mode=TwoWay}" />
+			</Grid>
+			<ComboBoxItem
+				Name="pict1">
+				<StackPanel
+					Orientation="Horizontal">
+					<Image
+						Source="enduro.jpg"
+						Height="70"
+						Width="70" />
+					<TextBlock
+						Text="Enduro Type"
+						FontSize="13"
+						Margin="5,20,0,0" />
+				</StackPanel>
+			</ComboBoxItem>
+			<ComboBoxItem
+				Name="pict2">
+				<StackPanel
+					Orientation="Horizontal">
+					<Image
+						Source="naked.jpg"
+						Height="70"
+						Width="70" />
+					<TextBlock
+						Text="Naked Type"
+						FontSize="13"
+						Margin="5,20,0,0" />
+				</StackPanel>
+			</ComboBoxItem>
+			<ComboBoxItem
+				Name="pict3">
+				<StackPanel
+					Orientation="Horizontal">
+					<Image
+						Source="atv.jpg"
+						Height="70"
+						Width="70" />
+					<TextBlock
+						Text="ATV Type"
+						FontSize="13"
+						Margin="5,20,0,0" />
+				</StackPanel>
+			</ComboBoxItem>
+			<ComboBoxItem
+				Name="pict4">
+				<StackPanel
+					Orientation="Horizontal">
+					<Image
+						Source="chopper.jpg"
+						Height="70"
+						Width="70" />
+					<TextBlock
+						Text="Chopper Type"
+						FontSize="13"
+						Margin="5,20,0,0" />
+				</StackPanel>
+			</ComboBoxItem>
+			<ComboBoxItem
+				Name="pict5">
+				<StackPanel
+					Orientation="Horizontal">
+					<Image
+						Source="cross.jpg"
+						Height="70"
+						Width="70" />
+					<TextBlock
+						Text="MotoCross Type"
+						FontSize="13"
+						Margin="5,20,0,0" />
+				</StackPanel>
+			</ComboBoxItem>
+			<ComboBoxItem
+				Name="pict6">
+				<StackPanel
+					Orientation="Horizontal">
+					<Image
+						Source="Cruiser.jpg"
+						Height="70"
+						Width="70" />
+					<TextBlock
+						Text="Cruiser Type"
+						FontSize="13"
+						Margin="5,20,0,0" />
+				</StackPanel>
+			</ComboBoxItem>
+			<ComboBoxItem
+				Name="pict7">
+				<StackPanel
+					Orientation="Horizontal">
+					<Image
+						Source="scooter.jpg"
+						Height="70"
+						Width="70" />
+					<TextBlock
+						Text="Scooter Type"
+						FontSize="13"
+						Margin="5,20,0,0" />
+				</StackPanel>
+			</ComboBoxItem>
+			<ComboBoxItem
+				Name="pict8">
+				<StackPanel
+					Orientation="Horizontal">
+					<Image
+						Source="Sport.jpg"
+						Height="70"
+						Width="70" />
+					<TextBlock
+						Text="Sport Type"
+						FontSize="13"
+						Margin="5,20,0,0" />
+				</StackPanel>
+			</ComboBoxItem>
+			<ComboBoxItem
+				Name="pict9">
+				<StackPanel
+					Orientation="Horizontal">
+					<Image
+						Source="sportourist.jpg"
+						Height="70"
+						Width="70" />
+					<TextBlock
+						Text="Sport Tourist Type"
+						FontSize="13"
+						Margin="5,20,0,0" />
+				</StackPanel>
+			</ComboBoxItem>
+			<ComboBoxItem
+				Name="pict10">
+				<StackPanel
+					Orientation="Horizontal">
+					<Image
+						Source="street.jpg"
+						Height="70"
+						Width="70" />
+					<TextBlock
+						Text="Street Type"
+						FontSize="13"
+						Margin="5,20,0,0" />
+				</StackPanel>
+			</ComboBoxItem>
+			<ComboBoxItem
+				Name="pict11">
+				<StackPanel
+					Orientation="Horizontal">
+					<Image
+						Source="touring.jpg"
+						Height="70"
+						Width="70" />
+					<TextBlock
+						Text="Touring Type"
+						FontSize="13"
+						Margin="5,20,0,0" />
+				</StackPanel>
+			</ComboBoxItem>
+		</ComboBox>
+		<Label
+			Content="Name: "
+			Margin="0,0,0,0"
+			VerticalAlignment="Stretch"
+			HorizontalAlignment="Stretch"
+			Grid.Row="1"
+			Grid.Column="0" />
+		<TextBox
+			Name="name_textbox"
+			Text="{Binding Name, Mode=TwoWay}"
+			Grid.Column="1"
+			Grid.Row="1"
+			HorizontalAlignment="Stretch"
+			VerticalAlignment="Stretch"
+			Margin="0,0,0,0" />
+		<Label
+			Content="Price: "
+			Grid.Column="0"
+			Grid.Row="2"
+			HorizontalAlignment="Stretch"
+			VerticalAlignment="Stretch"
+			Margin="0,0,0,0" />
+		<TextBox
+			Name="price_textbox"
+			Text="{Binding Price, Mode=TwoWay}"
+			Grid.Row="2"
+			Grid.Column="1" />
+		<Label
+			Content="Speed: "
+			Grid.Column="0"
+			Grid.Row="4"
+			HorizontalAlignment="Stretch"
+			VerticalAlignment="Stretch"
+			Margin="0,0,0,0" />
+		<TextBox
+			Name="speed_textbox"
+			Text="{Binding Speed, Mode=TwoWay}"
+			Grid.Row="4"
+			Grid.Column="1" />
+		<Label
+			Content="Color: "
+			Grid.Column="0"
+			Grid.Row="5"
+			HorizontalAlignment="Stretch"
+			VerticalAlignment="Stretch"
+			Margin="0,0,0,0" />
+		<TextBox
+			Name="color_textbox"
+			Text="{Binding Color, Mode=TwoWay}"
+			Grid.Row="5"
+			Grid.Column="1" />
+		<Label
+			Content="Safety: "
+			Grid.Column="0"
+			Grid.Row="6"
+			HorizontalAlignment="Stretch"
+			VerticalAlignment="Stretch"
+			Margin="0,0,0,0" />
+		<TextBox
+			Name="safety_textbox"
+			Text="{Binding Safety, Mode=TwoWay}"
+			Grid.Row="6"
+			Grid.Column="1" />
+		<Label
+			Content="Power: "
+			Grid.Column="0"
+			Grid.Row="7"
+			HorizontalAlignment="Stretch"
+			VerticalAlignment="Stretch"
+			Margin="0,0,0,0" />
+		<ComboBox
+			Width="180"
+			Margin="0,2,0,2"
+			VerticalAlignment="Stretch"
+			HorizontalAlignment="Center"
+			Grid.Row="7"
+			Grid.Column="1">
+			<ComboBoxItem
+				Name="power100">
+				<TextBlock
+					Text="100 Power" />
+			</ComboBoxItem>
+			<ComboBoxItem
+				Name="power115">
+				<TextBlock
+					Text="115 Power" />
+			</ComboBoxItem>
+			<ComboBoxItem
+				Name="power150">
+				<TextBlock
+					Text="150 Power" />
+			</ComboBoxItem>
+			<ComboBoxItem
+				Name="power125">
+				<TextBlock
+					Text="125 Power" />
+			</ComboBoxItem>
+			<ComboBoxItem
+				Name="power180">
+				<TextBlock
+					Text="180 Power" />
+			</ComboBoxItem>
+			<ComboBoxItem
+				Name="power200">
+				<TextBlock
+					Text="200 Power" />
+			</ComboBoxItem>
+		</ComboBox>
+		<Label
+			Content="Engine: "
+			Grid.Column="0"
+			Grid.Row="8"
+			HorizontalAlignment="Stretch"
+			VerticalAlignment="Stretch"
+			Margin="0,0,0,0" />
+		<ComboBox
+			Width="180"
+			Margin="0,2,0,2"
+			VerticalAlignment="Stretch"
+			HorizontalAlignment="Center"
+			Grid.Row="8"
+			Grid.Column="1">
+			<ComboBoxItem
+				Name="cc100">
+				<TextBlock
+					Text="100cc" />
+			</ComboBoxItem>
+			<ComboBoxItem
+				Name="cc150">
+				<TextBlock
+					Text="150cc" />
+			</ComboBoxItem>
+			<ComboBoxItem
+				Name="cc500">
+				<TextBlock
+					Text="500cc" />
+			</ComboBoxItem>
+			<ComboBoxItem
+				Name="cc1000">
+				<TextBlock
+					Text="1000cc" />
+			</ComboBoxItem>
+			<ComboBoxItem
+				Name="cc2000">
+				<TextBlock
+					Text="2000cc" />
+			</ComboBoxItem>
+		</ComboBox>
+		<Label
+			Content="Capacity: "
+			Grid.Column="0"
+			Grid.Row="9"
+			HorizontalAlignment="Stretch"
+			VerticalAlignment="Stretch"
+			Margin="0,0,0,0" />
+		<TextBox
+			Name="capacity_textbox"
+			Text="{Binding Capacity, Mode=TwoWay}"
+			Grid.Row="9"
+			Grid.Column="1" />
+		<Label
+			Content="Size: "
+			Grid.Column="0"
+			Grid.Row="10"
+			HorizontalAlignment="Stretch"
+			VerticalAlignment="Stretch"
+			Margin="0,0,0,0" />
+		<TextBox
+			Name="size_textbox"
+			Text="{Binding Size, Mode=TwoWay}"
+			Grid.Row="10"
+			Grid.Column="1" />
+		<Label
+			Content="Quality: "
+			Grid.Column="0"
+			Grid.Row="11"
+			HorizontalAlignment="Stretch"
+			VerticalAlignment="Stretch"
+			Margin="0,0,0,116" />
+		<TextBox
+			Name="quality_textbox"
+			Text="{Binding Quality, Mode=TwoWay}"
+			Grid.Column="1"
+			Grid.Row="11"
+			HorizontalAlignment="Stretch"
+			VerticalAlignment="Stretch"
+			Margin="0,0,0,116" />
+		<Button
+			Width="75"
+			Height="23"
+			RenderTransformOrigin="0.5,0.5"
+			Click="AddBtn_Click"
+			Content="A D D"
+			Grid.Column="1"
+			Grid.Row="11"
+			HorizontalAlignment="Left"
+			VerticalAlignment="Top"
+			Margin="24,80,0,0" />
+		<Button
+			Width="75"
+			Height="23"
+			Content="E X I T"
+			x:Name="button1"
+			Click="button1_Click"
+			Grid.Column="1"
+			Grid.Row="11"
+			HorizontalAlignment="Left"
+			VerticalAlignment="Top"
+			Margin="24,125,0,0" />
+	</Grid>
+</Window>

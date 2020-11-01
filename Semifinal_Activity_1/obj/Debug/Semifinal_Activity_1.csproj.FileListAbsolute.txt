@@ -1,0 +1,39 @@
+C:\Users\zenit\Desktop\Semifinal_Activity_1\Semifinal_Activity_1\bin\Debug\Semifinal_Activity_1.exe.config
+C:\Users\zenit\Desktop\Semifinal_Activity_1\Semifinal_Activity_1\bin\Debug\Semifinal_Activity_1.exe
+C:\Users\zenit\Desktop\Semifinal_Activity_1\Semifinal_Activity_1\bin\Debug\Semifinal_Activity_1.pdb
+C:\Users\zenit\Desktop\Semifinal_Activity_1\Semifinal_Activity_1\obj\Debug\Semifinal_Activity_1.csprojResolveAssemblyReference.cache
+C:\Users\zenit\Desktop\Semifinal_Activity_1\Semifinal_Activity_1\obj\Debug\Window1.baml
+C:\Users\zenit\Desktop\Semifinal_Activity_1\Semifinal_Activity_1\obj\Debug\Window1.g.cs
+C:\Users\zenit\Desktop\Semifinal_Activity_1\Semifinal_Activity_1\obj\Debug\App.g.cs
+C:\Users\zenit\Desktop\Semifinal_Activity_1\Semifinal_Activity_1\obj\Debug\Semifinal_Activity_1_MarkupCompile.cache
+C:\Users\zenit\Desktop\Semifinal_Activity_1\Semifinal_Activity_1\obj\Debug\Semifinal_Activity_1.g.resources
+C:\Users\zenit\Desktop\Semifinal_Activity_1\Semifinal_Activity_1\obj\Debug\Semifinal_Activity_1.exe
+C:\Users\zenit\Desktop\Semifinal_Activity_1\Semifinal_Activity_1\obj\Debug\Semifinal_Activity_1.pdb
+C:\Users\zenit\Desktop\Semifinal_Activity_1\Semifinal_Activity_1\obj\Debug\add_window.baml
+C:\Users\zenit\Desktop\Semifinal_Activity_1\Semifinal_Activity_1\obj\Debug\add_window.g.cs
+C:\Users\zenit\Desktop\Semifinal_Activity_1\Semifinal_Activity_1\obj\Debug\View.baml
+C:\Users\zenit\Desktop\Semifinal_Activity_1\Semifinal_Activity_1\obj\Debug\View.g.cs
+C:\Users\zenit\Desktop\Semifinal_Activity_1\Semifinal_Activity_1\obj\Debug\delete.baml
+C:\Users\zenit\Desktop\Semifinal_Activity_1\Semifinal_Activity_1\obj\Debug\Edit.baml
+C:\Users\zenit\Desktop\Semifinal_Activity_1\Semifinal_Activity_1\obj\Debug\delete.g.cs
+C:\Users\zenit\Desktop\Semifinal_Activity_1\Semifinal_Activity_1\obj\Debug\Edit.g.cs
+C:\Users\Jonel Lenteria\Desktop\Semifinal_Activity_1\Semifinal_Activity_1\bin\Debug\Semifinal_Activity_1.exe.config
+C:\Users\Jonel Lenteria\Desktop\Semifinal_Activity_1\Semifinal_Activity_1\bin\Debug\Semifinal_Activity_1.exe
+C:\Users\Jonel Lenteria\Desktop\Semifinal_Activity_1\Semifinal_Activity_1\bin\Debug\Semifinal_Activity_1.pdb
+C:\Users\Jonel Lenteria\Desktop\Semifinal_Activity_1\Semifinal_Activity_1\obj\Debug\Semifinal_Activity_1.csprojAssemblyReference.cache
+C:\Users\Jonel Lenteria\Desktop\Semifinal_Activity_1\Semifinal_Activity_1\obj\Debug\add_window.baml
+C:\Users\Jonel Lenteria\Desktop\Semifinal_Activity_1\Semifinal_Activity_1\obj\Debug\delete.baml
+C:\Users\Jonel Lenteria\Desktop\Semifinal_Activity_1\Semifinal_Activity_1\obj\Debug\Edit.baml
+C:\Users\Jonel Lenteria\Desktop\Semifinal_Activity_1\Semifinal_Activity_1\obj\Debug\View.baml
+C:\Users\Jonel Lenteria\Desktop\Semifinal_Activity_1\Semifinal_Activity_1\obj\Debug\Window1.baml
+C:\Users\Jonel Lenteria\Desktop\Semifinal_Activity_1\Semifinal_Activity_1\obj\Debug\add_window.g.cs
+C:\Users\Jonel Lenteria\Desktop\Semifinal_Activity_1\Semifinal_Activity_1\obj\Debug\delete.g.cs
+C:\Users\Jonel Lenteria\Desktop\Semifinal_Activity_1\Semifinal_Activity_1\obj\Debug\Edit.g.cs
+C:\Users\Jonel Lenteria\Desktop\Semifinal_Activity_1\Semifinal_Activity_1\obj\Debug\View.g.cs
+C:\Users\Jonel Lenteria\Desktop\Semifinal_Activity_1\Semifinal_Activity_1\obj\Debug\Window1.g.cs
+C:\Users\Jonel Lenteria\Desktop\Semifinal_Activity_1\Semifinal_Activity_1\obj\Debug\App.g.cs
+C:\Users\Jonel Lenteria\Desktop\Semifinal_Activity_1\Semifinal_Activity_1\obj\Debug\Semifinal_Activity_1_MarkupCompile.cache
+C:\Users\Jonel Lenteria\Desktop\Semifinal_Activity_1\Semifinal_Activity_1\obj\Debug\Semifinal_Activity_1.g.resources
+C:\Users\Jonel Lenteria\Desktop\Semifinal_Activity_1\Semifinal_Activity_1\obj\Debug\Semifinal_Activity_1.csproj.CoreCompileInputs.cache
+C:\Users\Jonel Lenteria\Desktop\Semifinal_Activity_1\Semifinal_Activity_1\obj\Debug\Semifinal_Activity_1.exe
+C:\Users\Jonel Lenteria\Desktop\Semifinal_Activity_1\Semifinal_Activity_1\obj\Debug\Semifinal_Activity_1.pdb
